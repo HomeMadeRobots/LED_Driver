@@ -69,9 +69,9 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">LED_Driver</_name>
-			<_modifiedTimeWeak type="a">4.24.2020::15:15:47</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.24.2020::15:15:47</_modifiedTime>
-			<_lastID type="a">1</_lastID>
+			<_modifiedTimeWeak type="a">8.12.2020::16:10:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.12.2020::16:10:24</_modifiedTime>
+			<_lastID type="a">2</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<size type="a">16</size>
@@ -154,6 +154,7 @@
 				<value>GUID bb29a72d-49ef-4089-aecf-c6eccb6b7ac8</value>
 				<value>GUID f23cfd63-e1d7-459c-a2da-b0daf686fd23</value>
 				<value>GUID b3f7fd0e-3f8d-4d27-8187-604dba0b818f</value>
+				<value>GUID 19e2f1b2-d44f-4d0c-a8a0-59073677e5a3</value>
 				<value>GUID 6acf25f6-33e2-4068-b90b-06d5f8c7f00e</value>
 			</AggregatesList>
 		</IProject>
@@ -191,6 +192,10 @@
 			<_id type="a">GUID b3f7fd0e-3f8d-4d27-8187-604dba0b818f</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">LED_Driver_Internal_Design</fileName>
+			<_id type="a">GUID 19e2f1b2-d44f-4d0c-a8a0-59073677e5a3</_id>
+		</ISubsystem>
 		<IComponent type="e">
 			<_id type="a">GUID 6acf25f6-33e2-4068-b90b-06d5f8c7f00e</_id>
 			<_myState type="a">139264</_myState>
@@ -207,7 +212,7 @@
 			</m_configActive>
 			<HandlesInMe type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">6</size>
+					<size type="a">7</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IProfile</_hm2Class>
@@ -248,6 +253,13 @@
 							<_hm2Class type="a">ISubsystem</_hm2Class>
 							<_hname type="a">Hardware_IO_Interfaces</_hname>
 							<_hid type="a">GUID b3f7fd0e-3f8d-4d27-8187-604dba0b818f</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hname type="a">LED_Driver_Internal_Design</_hname>
+							<_hid type="a">GUID 19e2f1b2-d44f-4d0c-a8a0-59073677e5a3</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
